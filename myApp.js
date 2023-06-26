@@ -1,6 +1,7 @@
 const express = require('express');
-const Helmet = require('helmet');
 const app = express();
+const helmet = require('helmet');
+app.use(helmet());
 
 
 
